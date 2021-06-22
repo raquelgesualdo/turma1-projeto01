@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box; /* altera a propriedade padrão da box model */
+}
+
+html {
+    scroll-behavior: smooth; /* especifica o comportamento de rolagem */
+  }
+
+body{
+    font-family: Roboto, sans-serif; /* fonte escolhida no Google Fonts */
+    background-color: #1d0e0e;
+    color: seashell;
+    margin: 0;
+    padding: 0;
+}
+   
+header{
+    text-align: center; 
+    width: 100%;
+    border: 2px solid gray;
+    background-color: rgb(223, 150, 150); /* cor de fundo para o menu */
+    padding: 30px; /* padding mínimo de 25px*/
+    position: fixed; /* posição do menu em relação ao conteúdo da página */
+    z-index: 2; /* posição do menu em relação ao conteúdo da página */
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.menu{
+    display: inline; /* alinhamento do menu */
+    border: 2px solid black; /* borda envolvendo o conteúdo */
+    padding: 10px; /* distanciamento entre o conteúdo e a borda */
+}
+
+main{
+    width: 100%;
+    padding: 100px 0 30px;
+}
+
+h1{
+    text-align: center;
+} 
+
+img{
+    margin-top: 15px;
+    width: 100%;
+    padding: 0 100px;
+} /* imagem como banner */
+
+p{
+    margin-top: 15px;
+    padding: 0 100px;
+    text-align: justify;
+} /* texto do projeto */
+
+li.destino{
+    list-style-type: disc;
+    padding: 0 10px;
+    margin-left: 80px;
+} /* item adicionado ao projeto com objetivo de treinamento */
+
+h2.acessorios{
+    text-align: center;
+} /* item adicionado ao projeto com objetivo de treinamento */
+
+ul{
+    list-style-type: disc;
+} /* item adicionado ao projeto com objetivo de treinamento */
+
+li.acessorios{
+    list-style-type: circle;
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+} /* item adicionado ao projeto com objetivo de treinamento */
+
+label{
+    display: block;
+} /* item adicionado ao projeto com objetivo de treinamento */
+
+.chat{
+    width: 250px;
+    position: fixed;
+    z-index: 2;
+    right: -80px;  
+    bottom: 30px;
+} /* imagem do whatsapp fixa na página */
+
+footer{
+    text-align: center;
+    border: 2px solid gray;
+    padding: 15px; /* distanciamento entre o conteúdo e a borda */
+
+} /* footer com texto centralizado e borda */
